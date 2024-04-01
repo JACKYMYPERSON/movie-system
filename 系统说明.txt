@@ -1,0 +1,19 @@
+
+后端 ：springboot  jpa  springmvc    maven
+前端：freemarker  html 
+数据库：mysql
+jdk1.8 
+开发工具： idea 或eclipse均可。
+
+
+
+上传和图片路径配置：
+
+application-dev.properties  中
+图片上传设置 视频上传设置，比如项目名字是movie,你将项目放在F盘，linshi文件夹的就是下面的路径
+
+movie.upload.photo.path=F:/linshi/movie/src/main/resources/upload/
+项目放在D 盘 work文件夹应该为
+movie.upload.photo.path=D:/workmovie/src/main/resources/upload/
+
+其他的如上设置
